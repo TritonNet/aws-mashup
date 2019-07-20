@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\docs\data\eurex.productlist.csv" Link="Resources\eurex.productlist.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.TestUtilities" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cumulus.Aws.Common\Cumulus.Aws.Common.csproj" />
+    <ProjectReference Include="..\Cumulus.Aws.LambdaManager\Cumulus.Aws.LambdaManager.csproj" />
+    <ProjectReference Include="..\Cumulus.Aws.MaintenanceMiddleware\Cumulus.Aws.MaintenanceMiddleware.csproj" />
+  </ItemGroup>
+
+</Project>

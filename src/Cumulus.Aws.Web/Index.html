@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Deutsche Börse Share Price</title>
+
+    <link href="css/cumulus.css" rel="stylesheet" />
+    <!--<link rel="stylesheet" href="css/nanoscroller.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/highstock.js"></script>
+
+
+    <!--<script src="themes/avocado.js"></script>-->
+    <!--<script src="themes/dark-blue.js"></script>-->
+    <!--<script src="themes/dark-green.js"></script>-->
+    <script src="themes/dark-unica.js"></script>
+    <!--<script src="themes/gray.js"></script>-->
+    <!--<script src="themes/grid-light.js"></script>-->
+    <!--<script src="themes/grid.js"></script>-->
+    <!--<script src="themes/sand-signika.js"></script>-->
+    <!--<script src="themes/skies.js"></script>-->
+    <!--<script src="themes/sunset.js"></script>-->
+
+
+    <script src="js/cumulus.js"></script>
+    <!--<script src="js/jquery.nanoscroller.js"></script>-->
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body style="background-color:#2f2d2d;">
+    <div class="cumulus_header">
+        Deutsche Börse Share Price
+    </div>
+    <div class="cumulus-body">
+        <div class="cumulus-products">
+            <div class="cumulus-products-header">
+                PRODUCTS
+            </div>
+            <div class="cumulus-products-detail">
+                <ul class="list-group cumulus-list-group" id="product-list"></ul>
+            </div>
+        </div>
+
+        <div class="cumulus-chart">
+            <div class="trending-chart-container-header">
+                TRENDING PRODUCTS
+            </div>
+            <table class="trending-chart-container">
+                <tr>
+                    <td>
+                        <div id="trending-chart-container-0"></div>
+                    </td>
+                    <td>
+                        <div id="trending-chart-container-1"></div>
+                    </td>
+                    <td>
+                        <div id="trending-chart-container-2"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="trending-chart-container-3"></div>
+                    </td>
+                    <td>
+                        <div id="trending-chart-container-4"></div>
+                    </td>
+                    <td>
+                        <div id="trending-chart-container-5"></div>
+                    </td>
+                </tr>
+            </table>
+            <div id="full-chart-container"></div>
+        </div>
+    </div>
+</body>
+</html>

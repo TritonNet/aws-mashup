@@ -1,0 +1,136 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.XetraMiddleware", "Cumulus.Aws.XetraMiddleware\Cumulus.Aws.XetraMiddleware.csproj", "{598648E4-C4A3-4947-A64E-CA8B612695B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.XetraMiddleware.Tests", "Cumulus.Aws.XetraMiddleware.Tests\Cumulus.Aws.XetraMiddleware.Tests.csproj", "{1E62D4DB-7093-488C-B479-ACDC64084CF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.EurexMiddleware", "Cumulus.Aws.EurexMiddleware\Cumulus.Aws.EurexMiddleware.csproj", "{816F2BAD-4CD0-4EF4-9E4A-9006FB512D01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.EurexMiddleware.Tests", "Cumulus.Aws.EurexMiddleware.Tests\Cumulus.Aws.EurexMiddleware.Tests.csproj", "{6D2B62F7-BD74-4D87-A701-3DDA553DF27C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.Common", "Cumulus.Aws.Common\Cumulus.Aws.Common.csproj", "{AFE5BE47-BB57-4E0B-8785-644DD54F0101}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.Install", "Cumulus.Aws.Install\Cumulus.Aws.Install.csproj", "{EC046DB0-A3AE-4C07-B67F-C822237B2962}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.LambdaManager", "Cumulus.Aws.LambdaManager\Cumulus.Aws.LambdaManager.csproj", "{61A63417-7D64-411A-AD5C-20BE61336C16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.LambdaManager.Tests", "Cumulus.Aws.LambdaManager.Tests\Cumulus.Aws.LambdaManager.Tests.csproj", "{8E364894-F454-45DF-A8BE-757E5F929630}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.Api", "Cumulus.Aws.Api\Cumulus.Aws.Api.csproj", "{7593A880-5293-471F-B7E7-05785CC6AFF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.Api.Tests", "Cumulus.Aws.Api.Tests\Cumulus.Aws.Api.Tests.csproj", "{F2350739-87F9-4915-A645-1EDCB4E19E20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cumulus.Aws.Web", "Cumulus.Aws.Web", "{DD1C6ACB-CDFC-4974-A146-7EF33C0C7830}"
+	ProjectSection(SolutionItems) = preProject
+		Cumulus.Aws.Web\Index.html = Cumulus.Aws.Web\Index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{5879A24A-A888-4235-AA2C-554D03EFBE59}"
+	ProjectSection(SolutionItems) = preProject
+		Cumulus.Aws.Web\js\cumulus.js = Cumulus.Aws.Web\js\cumulus.js
+		Cumulus.Aws.Web\js\highstock.js = Cumulus.Aws.Web\js\highstock.js
+		Cumulus.Aws.Web\js\jquery-3.3.1.min.js = Cumulus.Aws.Web\js\jquery-3.3.1.min.js
+		Cumulus.Aws.Web\js\jquery.nanoscroller.js = Cumulus.Aws.Web\js\jquery.nanoscroller.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{7C2ECFE5-F777-4C7B-A7EF-560DDF503D6B}"
+	ProjectSection(SolutionItems) = preProject
+		Cumulus.Aws.Web\css\cumulus.css = Cumulus.Aws.Web\css\cumulus.css
+		Cumulus.Aws.Web\css\highcharts.css = Cumulus.Aws.Web\css\highcharts.css
+		Cumulus.Aws.Web\css\nanoscroller.css = Cumulus.Aws.Web\css\nanoscroller.css
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.Common.Tests", "Cumulus.Aws.Common.Tests\Cumulus.Aws.Common.Tests.csproj", "{CC5EAA4E-95D5-41A2-AA86-2AD181F55AAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "themes", "themes", "{E4C22A55-2A15-4B8D-A216-4ABE202E8355}"
+	ProjectSection(SolutionItems) = preProject
+		Cumulus.Aws.Web\themes\avocado.js = Cumulus.Aws.Web\themes\avocado.js
+		Cumulus.Aws.Web\themes\dark-blue.js = Cumulus.Aws.Web\themes\dark-blue.js
+		Cumulus.Aws.Web\themes\dark-green.js = Cumulus.Aws.Web\themes\dark-green.js
+		Cumulus.Aws.Web\themes\dark-unica.js = Cumulus.Aws.Web\themes\dark-unica.js
+		Cumulus.Aws.Web\themes\gray.js = Cumulus.Aws.Web\themes\gray.js
+		Cumulus.Aws.Web\themes\grid-light.js = Cumulus.Aws.Web\themes\grid-light.js
+		Cumulus.Aws.Web\themes\grid.js = Cumulus.Aws.Web\themes\grid.js
+		Cumulus.Aws.Web\themes\sand-signika.js = Cumulus.Aws.Web\themes\sand-signika.js
+		Cumulus.Aws.Web\themes\skies.js = Cumulus.Aws.Web\themes\skies.js
+		Cumulus.Aws.Web\themes\sunset.js = Cumulus.Aws.Web\themes\sunset.js
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.MaintenanceMiddleware", "Cumulus.Aws.MaintenanceMiddleware\Cumulus.Aws.MaintenanceMiddleware.csproj", "{8DA89C72-6329-452F-99EB-DCF5C8941565}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cumulus.Aws.MaintenanceMiddleware.Tests", "Cumulus.Aws.MaintenanceMiddleware.Tests\Cumulus.Aws.MaintenanceMiddleware.Tests.csproj", "{3E311F76-FE22-42C0-AEBB-5C2C27A190A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{598648E4-C4A3-4947-A64E-CA8B612695B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598648E4-C4A3-4947-A64E-CA8B612695B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598648E4-C4A3-4947-A64E-CA8B612695B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598648E4-C4A3-4947-A64E-CA8B612695B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E62D4DB-7093-488C-B479-ACDC64084CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E62D4DB-7093-488C-B479-ACDC64084CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E62D4DB-7093-488C-B479-ACDC64084CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E62D4DB-7093-488C-B479-ACDC64084CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{816F2BAD-4CD0-4EF4-9E4A-9006FB512D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816F2BAD-4CD0-4EF4-9E4A-9006FB512D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816F2BAD-4CD0-4EF4-9E4A-9006FB512D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816F2BAD-4CD0-4EF4-9E4A-9006FB512D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D2B62F7-BD74-4D87-A701-3DDA553DF27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2B62F7-BD74-4D87-A701-3DDA553DF27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2B62F7-BD74-4D87-A701-3DDA553DF27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2B62F7-BD74-4D87-A701-3DDA553DF27C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE5BE47-BB57-4E0B-8785-644DD54F0101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE5BE47-BB57-4E0B-8785-644DD54F0101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE5BE47-BB57-4E0B-8785-644DD54F0101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE5BE47-BB57-4E0B-8785-644DD54F0101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC046DB0-A3AE-4C07-B67F-C822237B2962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC046DB0-A3AE-4C07-B67F-C822237B2962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC046DB0-A3AE-4C07-B67F-C822237B2962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC046DB0-A3AE-4C07-B67F-C822237B2962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A63417-7D64-411A-AD5C-20BE61336C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A63417-7D64-411A-AD5C-20BE61336C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A63417-7D64-411A-AD5C-20BE61336C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A63417-7D64-411A-AD5C-20BE61336C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E364894-F454-45DF-A8BE-757E5F929630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E364894-F454-45DF-A8BE-757E5F929630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E364894-F454-45DF-A8BE-757E5F929630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E364894-F454-45DF-A8BE-757E5F929630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7593A880-5293-471F-B7E7-05785CC6AFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7593A880-5293-471F-B7E7-05785CC6AFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7593A880-5293-471F-B7E7-05785CC6AFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7593A880-5293-471F-B7E7-05785CC6AFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2350739-87F9-4915-A645-1EDCB4E19E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2350739-87F9-4915-A645-1EDCB4E19E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2350739-87F9-4915-A645-1EDCB4E19E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2350739-87F9-4915-A645-1EDCB4E19E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5EAA4E-95D5-41A2-AA86-2AD181F55AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5EAA4E-95D5-41A2-AA86-2AD181F55AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5EAA4E-95D5-41A2-AA86-2AD181F55AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5EAA4E-95D5-41A2-AA86-2AD181F55AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA89C72-6329-452F-99EB-DCF5C8941565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA89C72-6329-452F-99EB-DCF5C8941565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA89C72-6329-452F-99EB-DCF5C8941565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA89C72-6329-452F-99EB-DCF5C8941565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E311F76-FE22-42C0-AEBB-5C2C27A190A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E311F76-FE22-42C0-AEBB-5C2C27A190A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E311F76-FE22-42C0-AEBB-5C2C27A190A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E311F76-FE22-42C0-AEBB-5C2C27A190A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5879A24A-A888-4235-AA2C-554D03EFBE59} = {DD1C6ACB-CDFC-4974-A146-7EF33C0C7830}
+		{7C2ECFE5-F777-4C7B-A7EF-560DDF503D6B} = {DD1C6ACB-CDFC-4974-A146-7EF33C0C7830}
+		{E4C22A55-2A15-4B8D-A216-4ABE202E8355} = {DD1C6ACB-CDFC-4974-A146-7EF33C0C7830}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F34104A-C401-434B-AEDE-4C7355CB780B}
+	EndGlobalSection
+EndGlobal
